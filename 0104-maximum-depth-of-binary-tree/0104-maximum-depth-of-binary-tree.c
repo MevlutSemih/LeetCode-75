@@ -5,6 +5,9 @@
  *     struct TreeNode *left;
  *     struct TreeNode *right;
  * };
+
+Recursive fonksiyonu tekrar terkrar çağırmak yerine bir değere atayıp kullanmak çok daha hızlı çalışır.
+
  */
 int maxDepth(struct TreeNode* root) {
     int r, l;
